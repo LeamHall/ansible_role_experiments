@@ -1,2 +1,39 @@
 ---
 # defaults file for exp_roles
+
+people:
+  - Marco:
+    f_name: Marco
+    l_name: Domici
+    position: "Family Head"
+
+  - Irene:
+    f_name: Irene
+    l_name: Domici
+    position: "Awesome Mom"
+
+  - Al:
+    f_name: Alba
+    l_name: Domici
+    position: "Tomboy Daughter"
+   
+  - Ian:
+    f_name: Ian
+    l_name: Domici
+    position: "Business Prodigy"
+
+  - Akil:
+    f_name: Akil
+    l_name: Domici
+    position: "Cheerful Rogue"
+
+  - Karista:
+    f_name: Karista
+    l_name: Domici
+    position: "Visioneer Artist"
+
+  - Tala:
+    f_name: Tala
+    l_name: Domici
+    position: "Heroic Daughter"
+ 

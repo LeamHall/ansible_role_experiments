@@ -3,6 +3,7 @@
 - name:         run_exp_roles
   hosts:        localhost
   gather_facts: false
+  become: true
 
   roles:
     - role: exp_role

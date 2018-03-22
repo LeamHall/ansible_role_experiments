@@ -4,3 +4,16 @@
     msg:  "I'm not feeling included."
 
 - include:  included_tasks.yml
+
+#- name: say_hi_to_everone
+#  debug:
+#    msg:  "Hello from {{ item.f_name }}, the {{ item.position }}!"
+#  with_items:
+#    - "{{ people }}"
+
+- name: add_users
+  user:
+    name: "{{ item.f_name }}"
+    shell:  /bin/bash
+  with_items:
+    - "{{ people }}"  
