@@ -1,0 +1,6 @@
+---
+# Part of the included task list.
+- name: included_tasks
+  debug:
+    msg:  "I now feel the inclusivity."
+

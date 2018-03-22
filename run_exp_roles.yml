@@ -1,0 +1,8 @@
+---
+# Run exp_roles role to deepen my understanding.
+- name:         run_exp_roles
+  hosts:        localhost
+  gather_facts: false
+
+  roles:
+    - role: exp_role
