@@ -17,3 +17,17 @@
     shell:  /bin/bash
   with_items:
     - "{{ people }}"  
+  tags:
+    - add
+
+- name: remove_users
+  user: 
+    name:   "{{ item.f_name }}"
+    state:  absent
+    remove: yes
+  with_items:
+    "{{ people }}"
+  tags:
+    - remove
+
+
